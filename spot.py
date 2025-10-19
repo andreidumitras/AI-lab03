@@ -1,5 +1,4 @@
-import pygame
-from utils import COLORS
+from utils import *
 
 class Spot:
     # --- Constructor ---

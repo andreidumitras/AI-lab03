@@ -1,3 +1,7 @@
+# utils.py
+import pygame
+
+
 WIDTH = 800
 HEIGHT = 800
 

@@ -1,6 +1,5 @@
-from utils import COLORS
+from utils import *
 from spot import Spot
-import pygame
 
 class Grid:
     def __init__(self, win: pygame.Surface, rows: int, cols: int, width: int, height: int):
