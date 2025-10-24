@@ -1,11 +1,11 @@
-# utils.py
 import pygame
 
-
+# some global constants
 WIDTH = 800
 HEIGHT = 800
 
-# colors
+# colors.
+# if you find it more suitable, change this dictionary to standalone constants like: RED = (255, 0, 0)
 COLORS = {
     'RED': (255, 0, 0),           # closed nodes
     'GREEN': (0, 255, 0),         # open nodes

@@ -43,12 +43,6 @@ class Grid:
         """
         spot_width = self.width // self.rows  # gap between lines
         spot_height = self.height // self.cols  # gap between lines
-        # for i in range(self.rows):
-        #     # draw horizontal lines
-        #     pygame.draw.line(self.win, COLORS['GREY'], (0, i * spot_height), (self.width, i * spot_height))
-        #     for j in range(self.cols):
-        #         # draw vertical lines
-        #         pygame.draw.line(self.win, COLORS['GREY'], (j * spot_width, 0), (j * spot_width, self.height))
         for i in range(self.rows):
             # draw horizontal lines
             pygame.draw.line(self.win, COLORS['GREY'], (0, i * spot_height), (self.width, i * spot_height))
