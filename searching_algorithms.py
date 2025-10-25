@@ -66,3 +66,10 @@ def astar(draw: callable, grid: Grid, start: Spot, end: Spot) -> bool:
     """
     pass
 
+# and the others algorithms...
+# ▢ Depth-Limited Search (DLS)
+# ▢ Uninformed Cost Search (UCS)
+# ▢ Greedy Search
+# ▢ Iterative Deepening Search/Iterative Deepening Depth-First Search (IDS/IDDFS)
+# ▢ Iterative Deepening A* (IDA)
+# Assume that each edge (graph weight) equalss
